@@ -1,0 +1,139 @@
+/*
+* jQueryTab v2.0
+* Copyright Dharma Poudel (@rogercomred)
+* Free to use under the GPLv3 license.
+* http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+a:link, a:visited {
+	/*color: #000;*/
+	text-decoration: none;
+}
+a:hover {
+	color: #666;
+}
+/*  == tab heading */
+.tabs {
+	border: 0px solid #fff;
+	border-bottom:0;
+	overflow: hidden;
+	position:relative;
+	z-index:2;
+}
+.tabs li {
+	width:25%;
+	font-family:"Segoe UI", Tahoma, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	list-style-type:none;
+	float: left;
+}
+.tabs li a {
+	border-left: 1px solid #fff;
+	border-top: 5px solid #fff;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	padding: 30px 17%;
+}
+.tabs li:first-child a {
+	border-left: none;
+}
+.tabs li:last-child a {
+	border-right: none;
+}
+.tabs li a:hover, .tabs li a:focus {
+	color: #fcc108;
+	border-top:5px solid #fcc108;
+}
+.tabs .active a {
+	color: #fcc108;
+	border-top:5px solid #fcc108;
+}
+/* == accordion */
+.accordion_tabs {
+	display: none;
+	border-top: 1px solid #ccc;
+	padding: 10px;
+	font-weight: bold;
+	background: #eee;
+}
+.tab_content_wrapper > .accordion_tabs:first-child {
+	border-top: none;
+}
+a.accordion_tabs:link, a.accordion_tabs:visited {
+	color: #21759B;
+}
+a.accordion_tabs:hover, a.accordion_tabs:focus {
+	color: #D54E21;
+}
+a.accordion_tabs.active {
+	color: #000;
+	border-bottom: 1px solid #ccc;
+}
+/*  == tab content  */
+.tab_content_wrapper {
+	overflow: hidden;
+	position: relative;
+	transition: all .3s ease-in-out .3s;
+	padding:0;
+}
+.tab_content {
+	transition: all .6s ease-in-out;
+	padding:10% 6%;
+	/*background: none;*/
+	width:100%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.toggle_display {
+	display: block;
+}
+.toggle_position {
+	position: absolute;
+}
+.toggle_border {
+	border: 1px solid #ccc;
+	border-width: 0 1px 1px 1px;
+}
+.invert_border {
+	border-width: 0px 0px 0 0px;
+}
+
+.tab-caption{
+	font-family:"Segoe UI", Tahoma, sans-serif;
+	font-size:46px;
+	font-weight:600;
+	color:#fff;
+}
+
+.tab-caption p{
+	margin-top:2%;
+}
+
+/* Media Queries
+***********************/
+@media screen and (max-width: 600px) {
+.accordion_tabs {
+	display: block;
+}
+.tab_content_wrapper {
+	height: auto !important;
+}
+.tab_content {
+	transition: none;
+	padding: 10px;
+}
+.toggle_display {
+	display: none;
+}
+.toggle_position {
+	position: relative;
+}
+.toggle_border {
+	border-width: 1px;
+}
+}

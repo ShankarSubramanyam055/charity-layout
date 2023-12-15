@@ -1,0 +1,802 @@
+@charset "utf-8";
+/* CSS Document */
+@media all and (min-width:1025px) and (max-width:1200px){
+	body{
+		width:100%;
+		max-width:1200px;
+	}
+	header .two-cols:nth-child(1){
+		width:13%;
+	}
+	header .two-cols:nth-child(2){
+		width:87%;
+	}	
+	header a#logo{
+		padding:30% 5%;
+	}
+	header #topmenu li a{
+		padding:20% 15px;
+		font-size:14px;
+	}
+	.news_list li .desc .title{
+		height:32px;
+		overflow:hidden;
+	}
+	.news_list li .btn{
+		width:45%;
+	}
+	.news_list li .desc{
+		font-size:14px;
+	}
+	h1{
+		font-size:30px;
+	}
+	section{
+		font-size:16px;
+	}
+	.toggle_display {
+		display: flex;
+	}
+	.tabs li{
+		display:flex;
+		font-size:18px;
+	}
+}
+
+
+@media all and (min-width:794px) and (max-width:1024px){
+	body{
+		width:100%;
+		max-width:1024px;
+	}
+	header .two-cols:nth-child(1){
+		width:13%;
+	}
+	header .two-cols:nth-child(2){
+		width:87%;
+	}	
+	header a#logo{
+		padding:30% 5%;
+	}
+	header #topmenu li a{
+		padding:25% 10px;
+		font-size:12px;
+	}
+	.news_list li .desc .title{
+		height:32px;
+		overflow:hidden;
+	}
+	.news_list li .btn{
+		width:48%;
+	}
+	.news_list li .desc{
+		font-size:14px;
+	}
+	.news_list li .desc .title + span{
+		height:77px;
+		display:block;
+		overflow:hidden;
+	}
+	h1{
+		font-size:24px;
+	}
+	section{
+		font-size:16px;
+	}
+	.toggle_display {
+		display: flex;
+	}
+	.tabs li{
+		display:flex;
+		font-size:18px;
+	}
+	a.btn{
+		font-size:12px;
+	}
+	.tab-caption{
+		font-size:36px;
+	}
+	header #banner .caption{
+		font-size:62px;
+	}
+}
+
+@media all and (min-width:769px) and (max-width:793px){
+	body{
+		width:100%;
+		max-width:793px;
+	}
+	header .two-cols:nth-child(1){
+		width:13%;
+	}
+	header .two-cols:nth-child(2){
+		width:87%;
+	}	
+	header a#logo{
+		padding:30% 5%;
+	}
+	header #topmenu li a{
+		padding:25% 10px;
+		font-size:12px;
+	}
+	.news_list li .desc .title{
+		height:32px;
+		overflow:hidden;
+	}
+	.news_list li .btn{
+		width:48%;
+	}
+	.news_list li .desc{
+		font-size:14px;
+	}
+	.news_list li .desc .title + span{
+		height:77px;
+		display:block;
+		overflow:hidden;
+	}
+	h1{
+		font-size:24px;
+	}
+	section{
+		font-size:16px;
+	}
+	.toggle_display {
+		display: flex;
+	}
+	.tabs li{
+		display:flex;
+		font-size:18px;
+	}
+	a.btn{
+		font-size:12px;
+	}
+	.tab-caption{
+		font-size:36px;
+	}
+	header #banner .caption{
+		font-size:62px;
+	}
+	header a.link-btn{
+		font-size:10px;
+	}
+}
+
+@media all and (min-width:641px) and (max-width:768px){
+	body{
+		width:100%;
+		max-width:768px;
+	}
+	header .two-cols:nth-child(1){
+		display:none;
+	}
+	header .two-cols:nth-child(2){
+		width:100%;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2){
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2) a{
+		margin:5px 0;
+		padding:0;
+		width:100%;
+		text-align:center;
+		display:block;
+	}	
+	header a#logo{
+		padding:7% 5%;
+		display:block;
+		margin:5px auto;
+	}
+	header #topmenu li a{
+		padding:25% 10px;
+		font-size:12px;
+	}
+	.news_list li .desc .title{
+		font-size:0.9em;
+		height:auto;
+	}
+	.news_list li .btn{
+		width:48%;
+	}
+	.news_list li .desc{
+		font-size:1.1em;
+	}
+	.news_list li .desc .title + span{
+		height:auto;
+		display:block;
+		overflow:hidden;
+	}
+	h1{
+		font-size:1.5em;
+	}
+	section{
+		padding:2%;
+		font-size:0.8em;
+	}
+	.toggle_display {
+		display: block;
+	}
+	.tabs li{
+		width:100%;
+		display:block;
+		font-size:1em;
+		float:none;
+	}
+	a.btn{
+		font-size:0.75em;
+	}
+	.tab-caption{
+		font-size:2.5em;
+	}
+	header #banner .caption{
+		font-size:3.0em;
+	}
+	header a.link-btn{
+		font-size:0.75em;
+		width:10%;
+		text-align:center;
+		display:block;
+		margin:5px auto;
+	}
+	.col-65{
+		width:100%;
+	}
+	footer{
+		padding:2%;
+		font-size:0.75em;
+	}
+	footer h6{
+		font-size:1.2em;
+	}
+	footer .footer-col{
+		margin:2% auto;
+		width:100%;
+		max-width:768px;
+		text-align:center;
+		float:none;
+	}
+	a.y-btn{
+		padding:2%;
+		font-size:12px;
+	}
+	header ul#topmenu, #menu{
+		display:none;
+	}
+	.news_list li, .news_list li:first-child, .news_list li:last-child{
+		margin:0 auto;
+		width:100%;
+		float:none;
+	}
+	.left-col{
+		margin:0 0 3%;
+		width:100%;
+		float:none;
+	}
+	.right-col{
+		width:100%;
+		max-width:768px;
+		float:none;
+	}
+	.low_row{
+		padding:1%;
+		font-size:0.75em;
+	}
+	.slicknav_menu{
+		display:block;
+	}
+}
+
+@media all and (min-width:481px) and (max-width:640px){
+	body{
+		width:100%;
+		max-width:768px;
+	}
+	header .two-cols:nth-child(1){
+		display:none;
+	}
+	header .two-cols:nth-child(2){
+		width:100%;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2){
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2) a{
+		margin:5px 0;
+		padding:0;
+		width:100%;
+		text-align:center;
+		display:block;
+	}	
+	header a#logo{
+		padding:7% 5%;
+		display:block;
+		margin:5px auto;
+	}
+	header #topmenu li a{
+		padding:25% 10px;
+		font-size:12px;
+	}
+	.news_list li .desc .title{
+		font-size:0.9em;
+		height:auto;
+	}
+	.news_list li .btn{
+		width:48%;
+	}
+	.news_list li .desc{
+		font-size:1.1em;
+	}
+	.news_list li .desc .title + span{
+		height:auto;
+		display:block;
+		overflow:hidden;
+	}
+	h1{
+		font-size:1.5em;
+	}
+	section{
+		padding:2%;
+		font-size:0.8em;
+	}
+	.toggle_display {
+		display: block;
+	}
+	.tabs li{
+		width:100%;
+		display:block;
+		font-size:1em;
+		float:none;
+	}
+	a.btn{
+		font-size:0.75em;
+	}
+	.tab-caption{
+		font-size:2.5em;
+	}
+	header #banner .caption{
+		font-size:3.0em;
+	}
+	header a.link-btn{
+		font-size:0.75em;
+		width:13%;
+		text-align:center;
+		display:block;
+		margin:5px auto;
+	}
+	.col-65{
+		width:100%;
+	}
+	footer{
+		padding:2%;
+		font-size:0.75em;
+	}
+	footer h6{
+		font-size:1.2em;
+	}
+	footer .footer-col{
+		margin:2% auto;
+		width:100%;
+		max-width:768px;
+		text-align:center;
+		float:none;
+	}
+	a.y-btn{
+		padding:2%;
+		font-size:12px;
+	}
+	header ul#topmenu, #menu{
+		display:none;
+	}
+	.news_list li, .news_list li:first-child, .news_list li:last-child{
+		margin:0 auto;
+		width:100%;
+		float:none;
+	}
+	.left-col{
+		margin:0 0 3%;
+		width:100%;
+		float:none;
+	}
+	.right-col{
+		width:100%;
+		max-width:768px;
+		float:none;
+	}
+	.low_row{
+		padding:1%;
+		font-size:0.75em;
+	}
+	.slicknav_menu{
+		display:block;
+	}
+}
+
+@media all and (min-width:361px) and (max-width:480px){
+	body{
+		width:100%;
+		max-width:768px;
+	}
+	header .two-cols:nth-child(1){
+		display:none;
+	}
+	header .two-cols:nth-child(2){
+		width:100%;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2){
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2) a{
+		margin:5px 0;
+		padding:0;
+		width:100%;
+		text-align:center;
+		display:block;
+	}	
+	header a#logo{
+		padding:7% 5%;
+		display:block;
+		margin:5px auto;
+	}
+	header #topmenu li a{
+		padding:25% 10px;
+		font-size:12px;
+	}
+	.news_list li .desc .title{
+		font-size:0.9em;
+		height:auto;
+	}
+	.news_list li .btn{
+		width:48%;
+	}
+	.news_list li .desc{
+		font-size:1.1em;
+	}
+	.news_list li .desc .title + span{
+		height:auto;
+		display:block;
+		overflow:hidden;
+	}
+	h1{
+		font-size:1.5em;
+	}
+	section{
+		padding:2%;
+		font-size:0.8em;
+	}
+	.toggle_display {
+		display: block;
+	}
+	.tabs li{
+		width:100%;
+		display:block;
+		font-size:1em;
+		float:none;
+	}
+	a.btn{
+		font-size:0.75em;
+	}
+	.tab-caption{
+		font-size:2.5em;
+	}
+	header #banner .caption{
+		font-size:3.0em;
+	}
+	header a.link-btn{
+		font-size:0.75em;
+		width:13%;
+		text-align:center;
+		display:block;
+		margin:5px auto;
+	}
+	.col-65{
+		width:100%;
+	}
+	footer{
+		padding:2%;
+		font-size:0.75em;
+	}
+	footer h6{
+		font-size:1.2em;
+	}
+	footer .footer-col{
+		margin:2% auto;
+		width:100%;
+		max-width:768px;
+		text-align:center;
+		float:none;
+	}
+	a.y-btn{
+		padding:2%;
+		font-size:12px;
+	}
+	header ul#topmenu, #menu{
+		display:none;
+	}
+	.news_list li, .news_list li:first-child, .news_list li:last-child{
+		margin:0 auto;
+		width:100%;
+		float:none;
+	}
+	.left-col{
+		margin:0 0 3%;
+		width:100%;
+		float:none;
+	}
+	.right-col{
+		width:100%;
+		max-width:768px;
+		float:none;
+	}
+	.low_row{
+		padding:1%;
+		font-size:0.75em;
+	}
+	.slicknav_menu{
+		display:block;
+	}
+}
+
+@media all and (min-width:321px) and (max-width:360px){
+	body{
+		width:100%;
+		max-width:768px;
+	}
+	header .two-cols:nth-child(1){
+		display:none;
+	}
+	header .two-cols:nth-child(2){
+		width:100%;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2){
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2) a{
+		margin:5px 0;
+		padding:0;
+		width:100%;
+		text-align:center;
+		display:block;
+	}	
+	header a#logo{
+		padding:7% 5%;
+		display:block;
+		margin:5px auto;
+	}
+	header #topmenu li a{
+		padding:25% 10px;
+		font-size:12px;
+	}
+	.news_list li .desc .title{
+		font-size:0.9em;
+		height:auto;
+	}
+	.news_list li .btn{
+		width:48%;
+	}
+	.news_list li .desc{
+		font-size:1.1em;
+	}
+	.news_list li .desc .title + span{
+		height:auto;
+		display:block;
+		overflow:hidden;
+	}
+	h1{
+		font-size:1.5em;
+	}
+	section{
+		padding:2%;
+		font-size:0.8em;
+	}
+	.toggle_display {
+		display: block;
+	}
+	.tabs li{
+		width:100%;
+		display:block;
+		font-size:1em;
+		float:none;
+	}
+	a.btn{
+		font-size:0.75em;
+	}
+	.tab-caption{
+		font-size:2.5em;
+	}
+	header #banner .caption{
+		font-size:3.0em;
+	}
+	header a.link-btn{
+		font-size:0.75em;
+		width:13%;
+		text-align:center;
+		display:block;
+		margin:5px auto;
+	}
+	.col-65{
+		width:100%;
+	}
+	footer{
+		padding:2%;
+		font-size:0.75em;
+	}
+	footer h6{
+		font-size:1.2em;
+	}
+	footer .footer-col{
+		margin:2% auto;
+		width:100%;
+		max-width:768px;
+		text-align:center;
+		float:none;
+	}
+	a.y-btn{
+		padding:2%;
+		font-size:12px;
+	}
+	header ul#topmenu, #menu{
+		display:none;
+	}
+	.news_list li, .news_list li:first-child, .news_list li:last-child{
+		margin:0 auto;
+		width:100%;
+		float:none;
+	}
+	.left-col{
+		margin:0 0 3%;
+		width:100%;
+		float:none;
+	}
+	.right-col{
+		width:100%;
+		max-width:768px;
+		float:none;
+	}
+	.low_row{
+		padding:1%;
+		font-size:0.75em;
+	}
+	.slicknav_menu{
+		display:block;
+	}
+}
+
+@media all and (max-width:320px){
+	body{
+		width:100%;
+		max-width:768px;
+	}
+	header .two-cols:nth-child(1){
+		display:none;
+	}
+	header .two-cols:nth-child(2){
+		width:100%;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2){
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	header #topbar .two-cols:nth-child(2) a{
+		margin:5px 0;
+		padding:0;
+		width:100%;
+		text-align:center;
+		display:block;
+	}	
+	header a#logo{
+		padding:7% 5%;
+		display:block;
+		margin:5px auto;
+	}
+	header #topmenu li a{
+		padding:25% 10px;
+		font-size:12px;
+	}
+	.news_list li .desc .title{
+		font-size:0.9em;
+		height:auto;
+	}
+	.news_list li .btn{
+		width:48%;
+	}
+	.news_list li .desc{
+		font-size:1.1em;
+	}
+	.news_list li .desc .title + span{
+		height:auto;
+		display:block;
+		overflow:hidden;
+	}
+	h1{
+		font-size:1.5em;
+	}
+	section{
+		padding:2%;
+		font-size:0.8em;
+	}
+	.toggle_display {
+		display: block;
+	}
+	.tabs li{
+		width:100%;
+		display:block;
+		font-size:1em;
+		float:none;
+	}
+	a.btn{
+		font-size:0.75em;
+	}
+	.tab-caption{
+		font-size:2.5em;
+	}
+	header #banner .caption{
+		font-size:3.0em;
+	}
+	header a.link-btn{
+		font-size:0.75em;
+		width:13%;
+		text-align:center;
+		display:block;
+		margin:5px auto;
+	}
+	.col-65{
+		width:100%;
+	}
+	footer{
+		padding:2%;
+		font-size:0.75em;
+	}
+	footer h6{
+		font-size:1.2em;
+	}
+	footer .footer-col{
+		margin:2% auto;
+		width:100%;
+		max-width:768px;
+		text-align:center;
+		float:none;
+	}
+	a.y-btn{
+		padding:2%;
+		font-size:12px;
+	}
+	header ul#topmenu, #menu{
+		display:none;
+	}
+	.news_list li, .news_list li:first-child, .news_list li:last-child{
+		margin:0 auto;
+		width:100%;
+		float:none;
+	}
+	.left-col{
+		margin:0 0 3%;
+		width:100%;
+		float:none;
+	}
+	.right-col{
+		width:100%;
+		max-width:768px;
+		float:none;
+	}
+	.low_row{
+		padding:1%;
+		font-size:0.75em;
+	}
+	.slicknav_menu{
+		display:block;
+	}
+}
